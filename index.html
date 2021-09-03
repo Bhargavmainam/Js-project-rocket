@@ -9,20 +9,36 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="body-state1">
     <div class="left">
         <div class="state1">
             <h1>JS Rocket Launch</h1>
-            <a href="#" class="button" onclick="startCountDown()">
+            <a href="#" class="button" onclick="changeState(2)">
                 Hit The Sky
             </a>
         </div>
         <div class="state2">
             <h1 id="countdown">10</h1>
-            <a href="#" class="button" onclick="turnDown()">
+            <a href="#" class="button" onclick="changeState(1)">
                 Turn Down
             </a>
         </div>
+        <div class="state3">
+            <h1>Lift off!</h1>
+        </div>
+        <div class="state4">
+            <h1>Oh-Hoooo</h1>
+            <a href="#" class="button" onclick="changeState(1)">
+                Again Jarvis !!
+            </a>
+        </div>
+        <div class="state5">
+            <h1>Ooops</h1>
+            <a href="#" class="button" onclick="changeState(1)">
+                Jarvis repeat!
+            </a>
+        </div>
+
     </div>
     <div class="right">
         <div class="ground">
