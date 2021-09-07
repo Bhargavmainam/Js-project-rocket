@@ -20,7 +20,7 @@ var changeState = function (state) {
             var randomNumber = Math.round(Math.random() * 10);
 
             console.log("randomNumber:", randomNumber);
-            if (randomNumber > 1) {
+            if (randomNumber > 4) {
                 changeState(4);
             } else {
                 changeState(5);

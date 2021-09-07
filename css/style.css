@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 .left{
     background-color: #cab3e6;
     position: fixed;
@@ -63,4 +65,22 @@
 }
 .body-state5 .state5{
     display: block;
+}
+h1{
+    text-align: center;
+    color: #F1E290;
+    text-decoration: overline;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    color: #2A2B5F;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-weight: 400;
+  font-family: 'Rampart One', cursive;;
 }
